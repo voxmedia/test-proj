@@ -1,0 +1,7 @@
+{
+  "type": "bespoke",
+  "id": 5,
+  "slug": "recode-test-proj",
+  "server": "http://localhost:3456",
+  "data_filename": "data/autotune.json"
+}

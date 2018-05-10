@@ -1,0 +1,63 @@
+{
+  "name": "Test proj",
+  "description": "Tool description goes here",
+  "instructions": "Provide instructions here",
+  "preview_type": "",
+  "theme_type": "dynamic",
+  "sample_data": "data/autotune.json",
+  "type": "graphic",
+  "thumbnail": "thumbnail.png",
+  "authors": ["Kavya Sukumar"],
+  "form": {
+    "schema": {
+      "title": "Test proj",
+      "description": "Form description",
+      "type": "object",
+      "properties": {
+        "google_doc_url_text": {
+          "title": "google_doc_url_text",
+          "type": "string"
+        },
+        "google_doc_url": {
+          "title": "google_doc_url",
+          "type": "string"
+        },
+        "google_doc_url_html": {
+          "title": "google_doc_url_html",
+          "type": "string"
+        },
+        "google_doc_url_foo": {
+          "title": "google_doc_url_foo",
+          "type": "string"
+        },
+        "google_docs_text": {
+          "title": "google_docs_text",
+          "type": "array",
+          "items": {
+            "title": "Google Document URL",
+            "type": "string"
+          }
+        },
+        "google_docs_foo": {
+          "title": "google_docs_foo",
+          "type": "array",
+          "items": {
+            "title": "Google Document URL",
+            "type": "string"
+          }
+        },
+        "google_docs": {
+          "title": "google_docs",
+          "type": "array",
+          "items": {
+            "title": "Google Document URL",
+            "type": "string"
+          }
+        }
+      }
+    },
+    "options": {
+      "fields": {}
+    }
+  }
+}
